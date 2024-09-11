@@ -1,3 +1,3 @@
-#React_krisna-kukuh-wijaya
+**React_krisna-kukuh-wijaya**
 
-Mengumpulkan tugas Alterra Academy
+Dipakai untuk mengumpulkan tugas Alterra Academy Batch 7
