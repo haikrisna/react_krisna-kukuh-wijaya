@@ -1,0 +1,70 @@
+/* --------------------------------Create Product---------------------------- */
+#product-name{
+    width: 159px;
+    height: 14px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+#product-category{
+    width: 71px;
+    height: 15px;
+    top: 135px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#additional-description{
+    width: 241px;
+    height: 99px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#product-price{
+    width: 47px;
+    height: 18px;
+}
+
+/* --------------------------------Create Product---------------------------- */
+header{
+    width:1440px;
+    height:60px;
+    border-bottom: solid #000; /* Garis dengan ketebalan 1px, warna hitam, dan tipe solid */
+}
+.header-title{
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+
+footer{
+    width:1440px;
+    height:60px;
+    border-top: solid #000; /* Garis dengan ketebalan 1px, warna hitam, dan tipe solid */
+    margin-top:35px;
+}
+
+.hero-buttons button {
+    margin-top:57px;
+    width: 140;
+    height: 45px; 
+    font-size: 16px;
+    color: black; 
+    margin-right: 25px; 
+    font-family: 'Times';
+    
+}
+
+#submit{
+    width: 140;
+    height: 45px; 
+    font-size: 16px;
+    color: black; 
+    margin-top : 20px;
+    font-family: 'Times';
+}

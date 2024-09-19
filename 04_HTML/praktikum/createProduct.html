@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-weight: normal">Create Product</h1>
+    <h2 style="font-weight: normal; margin-top: 6px">Detail Product</h2>
+    <!-- Isi form -->
+    <form>
+        <!-- Nama produk -->
+        <label for="product-name" style="margin-top: 6px;">Product Name:</label>
+        <br>
+        <input type="text" id="product-name" name="product-name" minlength="6" maxlength="50">
+        <br>
+
+        <!-- Kartegori produk select -->
+        <label for="product-category" style="margin-top: 6px">Product Category:</label>
+        <br>
+        <select id="product-category" name="product-category" ></select>
+
+        <!-- Input radio -->
+        <br>
+        <label for="product-freshness" style="margin-top: 6px">Product Freshness:</label>
+        <br>
+        <input type="radio" id="brand-new" name="product-freshness" value="brand-new">
+        <label for="brand-new">Brand New</label>
+        <br>
+        <input type="radio" id="second-hand" name="product-freshness" value="second-hand">
+        <label for="second-hand">Second Hand</label>
+        <br>
+        <input type="radio" id="refurbished" name="product-freshness" value="refurbished">
+        <label for="refurbished">Refurbished</label>
+        <br>
+
+        <!-- Akses gambar input produk -->
+        <label for="product-image" style="margin-top: 6px">Image of Product:</label>
+        <input type="file" id="product-image" name="product-image">
+        <br>
+
+        <label for="additional-description" style="margin-top: 6px">Additional Description:</label><br>
+        <textarea id="additional-description" name="additional-description"></textarea>
+        <br>
+
+        <label for="product-price" style="margin-top: 6px">Product Price:</label>
+        <br>
+        <input type="number" id="product-price" name="product-price" placeholder="$100">
+        
+        <br>
+        <input id="kirim" type="submit" value="Submit" style="margin-top: 6px;">
+    </form>
+</body>
+</html>
