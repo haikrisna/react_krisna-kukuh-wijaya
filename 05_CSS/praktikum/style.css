@@ -1,5 +1,22 @@
+/* Set global font family to Jost */
 * {
-   font-family: Jost, sans-serif;
+  font-family: Jost, sans-serif;
+}
+
+/* Example of heading styles */
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+/* Example of body text styles */
+body {
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
+body {
+    font-family: 'Jost', sans-serif;
 }
 
 
