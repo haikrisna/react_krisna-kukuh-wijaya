@@ -1,0 +1,31 @@
+import React from 'react';
+
+export default function AboutComponent() {
+  return (
+    <div className="container mt-5">
+      <div className="row justify-content-center">
+        <div className="col-md-8 text-center">
+          <h2 className="mb-4">About Us</h2>
+          
+          <img 
+            src="https://via.placeholder.com/400" 
+            alt="About Us" 
+            className="img-fluid rounded mb-4"
+          />
+          
+          <p className="lead">
+            Kami adalah tim yang berdedikasi untuk memberikan solusi terbaik bagi kebutuhan teknologi Anda. 
+            Dengan pengalaman bertahun-tahun dalam pengembangan perangkat lunak, kami siap untuk membantu Anda 
+            mencapai tujuan bisnis Anda dengan teknologi mutakhir.
+          </p>
+          
+          <p className="text-muted">
+            Tim kami terdiri dari individu-individu yang ahli dalam bidang mereka masing-masing, 
+            mulai dari pengembangan front-end, back-end, hingga desain dan manajemen proyek. 
+            Kami percaya bahwa kolaborasi yang baik menghasilkan solusi yang luar biasa.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
