@@ -18,7 +18,6 @@ export default function ListProduct() {
           <li key={product.id}>
             <span>{product.productName}</span>
             <button onClick={() => handleDelete(product.id)}>Delete</button>
-            {/* Tambahkan tombol Edit di sini jika diperlukan */}
           </li>
         ))}
       </ul>
