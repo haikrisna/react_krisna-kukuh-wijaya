@@ -1,24 +1,24 @@
 export const data = {
-    "hargaPasar": {
+    "ESP 32": {
       "cabai": {
-        "harga": "10 ribu",
-        "satuan": "per kilogram"
+        "harga": "75 ribu",
+        "satuan": "pcs"
       },
-      "seblak": {
-        "harga": "10 ribu",
-        "satuan": "per porsi"
-      },
-      "geprek": {
+      "ultrasonik": {
         "harga": "20 ribu",
-        "satuan": "per porsi"
+        "satuan": "pcs"
       },
-      "telur": {
-        "harga": "15 ribu",
-        "satuan": "per kilogram"
+      "kabel": {
+        "harga": "10 ribu",
+        "satuan": "pcs"
       },
-      "beras": {
-        "harga": "12 ribu",
-        "satuan": "per kilogram"
+      "stepdown": {
+        "harga": "",
+        "satuan": "pcs"
+      },
+      "hall effect": {
+        "harga": "2 ribu",
+        "satuan": "pcs"
       }
     }
   };
