@@ -1,6 +1,6 @@
-export const data = {
-    "ESP 32": {
-      "cabai": {
+ export const data = {
+    "Data Komponen": {
+      "ESP 32": {
         "harga": "75 ribu",
         "satuan": "pcs"
       },

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { data } from './dataHarga'; // Sesuaikan path jika perlu
+import { data } from './dataMakanan'; 
 import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     },
     {
       role: "model",
-      parts: [{ text: "saya adalah AI penjual komponen IoT" }],
+      parts: [{ text: "saya adalah AI untuk memandu kegiatan manajemen makanan dan mengatasi FoodWaste, saya ahli dalam bidang meal plan mengenai informasi makanan yang ada" }],
     },
   ]);
 
@@ -42,8 +42,8 @@ function App() {
         history: history,
       });
       
-      let promptDefault = `Kamu harus menjawab dengan sopan. Berikut adalah data harga yang ada: ${JSON.stringify(dataState, null, 2)}.
-      Tidak boleh menjawab di luar dari data dan history yang diberikan. Bahwa saya adalah krisna. Dengan history percakapan ${JSON.stringify(history, null, 2)}. Berikut inputan pengguna: ${inputUser}`;
+      let promptDefault = `Kamu harus menjawab dengan baik ketika aku menanyakan hal terkait manajemen makanan, setiap menjawab pertanyaan gunakan kalimat "Selamat Datang di Archiwaste....". Berikut adalah data makanan yang disediakan: ${JSON.stringify(dataState, null, 2)}.
+      Tidak boleh menjawab di luar dari data dan history yang diberikan. Bahwa saya adalah krisna, seseorang yang sedang ingin mengatasi FoodWaste. Dengan history percakapan ${JSON.stringify(history, null, 2)}. Berikut inputan yang diberikan: ${inputUser}`;
       
       const result = await chatSession.sendMessage(inputUser);
       setResponse(result.response.text());
@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">Gemini AI</h1>
+      <h1 className="app-title">ArchiWaste AI</h1>
       <div className="chat-container">
         <div className="history">
           {history.map((data, index) => (
@@ -85,4 +85,3 @@ function App() {
 }
 
 export default App;
-
